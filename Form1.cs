@@ -69,7 +69,7 @@ namespace ThatcherSongListBox___Ashi_Alfassi__Meir_Di_Capua
                 await Task.Delay(curTime - prevTime);
                 prevTime = curTime;
             }
-            ((Button)sender).Enabled = false;
+            ((Button)sender).Enabled = true;
         }
 
 
